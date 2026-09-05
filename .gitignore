@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+
+# Runtime outputs
+outputs/
+*.mp4
+*.avi
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

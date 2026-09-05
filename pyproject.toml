@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "facemesh-detection"
+version = "1.0.0"
+description = "Production-ready real-time face mesh detection (468/478 landmarks) with MediaPipe"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Lavanya Srivastav" }]
+keywords = ["mediapipe", "face-mesh", "opencv", "computer-vision", "facial-landmark-detection"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+]
+dependencies = [
+    "mediapipe>=0.10.21",
+    "opencv-python>=4.9.0",
+    "numpy>=1.26",
+]
+
+[project.scripts]
+facemesh = "src.facemesh.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+
+[tool.black]
+line-length = 100
+target-version = ["py39"]

@@ -1,0 +1,3 @@
+-r requirements-app.txt
+streamlit-webrtc>=0.47
+av>=12.0

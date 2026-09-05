@@ -1,0 +1,5 @@
+# mediapipe>=0.10.21 removed the legacy `solutions` API in favor of the
+# Tasks API (FaceLandmarker) that this project uses.
+mediapipe>=0.10.21
+opencv-python>=4.9.0
+numpy>=1.26
