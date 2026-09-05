@@ -8,3 +8,11 @@ numpy>=1.26
 # a file named exactly "requirements.txt", so this is merged in here rather
 # than kept solely in requirements-app.txt.
 streamlit>=1.35
+pytest>=8.0
+pytest-cov>=5.0
+black>=24.0
+ruff>=0.4
+streamlit-webrtc>=0.47
+av>=12.0
+
+
