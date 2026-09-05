@@ -13,3 +13,5 @@ black>=24.0
 ruff>=0.4
 streamlit-webrtc>=0.47
 av>=12.0
+
+
