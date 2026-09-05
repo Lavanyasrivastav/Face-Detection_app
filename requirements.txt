@@ -2,7 +2,7 @@
 # Tasks API (FaceLandmarker) that this project uses.
 mediapipe>=0.10.21
 numpy>=1.26
-
+opencv-python-headless
 # Needed for app.py (Streamlit web demo). Streamlit Cloud only auto-detects
 # a file named exactly "requirements.txt", so this is merged in here rather
 # than kept solely in requirements-app.txt.
