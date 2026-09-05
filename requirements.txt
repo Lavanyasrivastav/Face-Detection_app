@@ -3,3 +3,5 @@
 mediapipe>=0.10.21
 opencv-python>=4.9.0
 numpy>=1.26
+streamlit
+Pillow
