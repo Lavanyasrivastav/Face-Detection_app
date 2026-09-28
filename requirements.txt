@@ -1,3 +1,5 @@
 mediapipe>=0.10.21
 numpy>=1.26
 streamlit>=1.35
+streamlit-webrtc
+av
